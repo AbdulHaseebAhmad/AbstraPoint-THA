@@ -1,12 +1,54 @@
-# React + Vite
+# AbstraPoint-THA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AbstraPoint is a spreadsheet-like web application designed to manage and display data in a tabular format with advanced features such as editable headers, sortable columns, and expandable rows. It provides a user-friendly interface for managing various types of information with the ability to customize and interact with the data efficiently.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Column Headers**:
+   - Editable headers with the ability to change column names.
+   - Sorting functionality on columns.
+   - Status column with sub-row headers (Author, Launch Status).
+   - Status and Notes columns pinned to the left and right extremes.
+   - Collapsible Status and Notes columns.
+   - Scrollable columns for those between Status and Notes.
+   - Reorder columns between Status and Notes.
 
-## Expanding the ESLint configuration
+2. **Rows**:
+   - Alternate row coloring for better readability.
+   - Each row can expand to show more details.
+   - Editable Notes with text box.
+   - Row borders styled with a light orange color.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Status Column**:
+   - Dropdown for selecting author and read status.
+
+4. **Sheet Tabs**:
+   - Ability to create new sheets, rename them, and change their order.
+
+5. **Responsive Design**:
+   - The application is fully responsive and adjusts to different screen sizes.
+
+6. **Customizable CSS**:
+   - Color patterns based on the reference image, though customizable if needed.
+
+## Demo
+
+You can see a live demo of the application here:  
+[Live Demo](https://primemed-d84e2.web.app/)
+
+## Setup Guide
+
+To set up the project locally:
+
+1. Clone the repository:
+   git clone https://github.com/AbdulHaseebAhmad/AbstraPoint-THA.git
+
+2. Navigate to the Project Directory:
+    cd AbstraPoint-THA
+
+3. Install the Required Dependencies:
+    npm install
+
+4. Start the Development Server:
+    npm run dev
+
