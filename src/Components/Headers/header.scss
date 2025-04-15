@@ -1,0 +1,30 @@
+
+.header-container{
+    .header{
+        display: flex;
+        align-items:center;
+        gap:10px;
+
+        .icon{
+            cursor: pointer;
+        }
+        .delete{
+            color:red;
+        }
+        .confirm{
+            color: green;
+        }
+
+        .input{
+            width:99%;
+            padding: 2px;
+            outline: none;
+        }
+
+        .input::placeholder{
+            font-size: 12px;
+            padding: 2px;
+
+        }
+    }
+}
